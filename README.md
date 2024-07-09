@@ -64,10 +64,13 @@ Pitch net slip: 40
 Units net slip: 10
 <img src="figures/fault-plane.png"  width="600"/>
 Figure 1: View of a fault plane as in Ragan (2009).
+
 <img src="figures/dip_separation.png"  width="600"/>
 Figure 2: Dip separation plot.
+
 <img src="figures/strike_separation.png"  width="600"/>
 Figure 3: Strike separation plot.
+
 <img src="figures/map-section.png"  width="600"/>
 Figura 4: Section and Map
 
