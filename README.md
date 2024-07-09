@@ -33,7 +33,7 @@ This method leverages abstract mathematical representations to achieve visualiza
     - Plots proposed in the paper.
 
 ### Input 
-The program will ask following parameters
+The program will ask the following parameters:
 ```console
 Enter Fault dip (0-90):
 Enter Fault dip direction (0-360):
@@ -62,16 +62,12 @@ Bedding dip: 10
 Bedding dip direction: 28
 Pitch net slip: 40
 Units net slip: 10
-
 <img src="figures/fault-plane.png"  width="600"/>
 Figure 1: View of a fault plane as in Ragan (2009).
-
 <img src="figures/dip_separation.png"  width="600"/>
 Figure 2: Dip separation plot.
-
 <img src="figures/strike_separation.png"  width="600"/>
 Figure 3: Strike separation plot.
-
 <img src="figures/map-section.png"  width="600"/>
 Figura 4: Section and Map
 
