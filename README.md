@@ -19,9 +19,9 @@ This project implements a Python script designed to explore the relationships be
 2. Processing: The script processes these data to construct the 3D geometry of the fault and bedding planes. It then applies the netslip vector to simulate the displacement.
 <img src="figures/figura-script.png"  width="600"/>
 3. Visualization: The script generates visualizations, including:
-    - Map View: Shows the horizontal intersection of the fault and bedding planes.
-    - Cross-Section View: Displays the vertical intersection in the dip direction of the fault.
-    - Fault plane view as in Ragan (2009).
+    - Map View: Shows the horizontal intersection of the fault and bedding planes.  
+    - Cross-Section View: Displays the vertical intersection in the dip direction of the fault.  
+    - Fault plane view as in Ragan (2009).  
     - Plots proposed in the paper.
 
 ### Input 
