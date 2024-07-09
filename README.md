@@ -9,23 +9,15 @@ This project implements a Python script designed to explore the relationships be
 - Plots the fault plane as in Ragan (2009).
 - Plots a cross-section and a map.
 
-## How it works
-Using data collected in the field:
 
-1. Plane Construction: Planes for the fault and bedding surfaces in 3D space are constructed at an origin point (O).
-2. Netslip Application: The netslip vector is applied to the hangingwall bedding plane, originating from a new point (O').
-3. Intersection Mapping: The spatial arrangement of these elements intersects with both a horizontal plane (map) and a vertical plane in the fault's dip direction (cross-section).
-
-This method leverages abstract mathematical representations to achieve visualizations of fault geometry.
-
-<img src="figures/figura-script.png"  width="600"/>
 
 ## Functionality and Results
 
 ### Functionality
 
 1. Data Input: The script takes input data from field measurements. This includes orientation of fault and bedding planes and pitch of the net-slip.
-2. Processing: The script processes this data to construct the 3D geometry of the fault and bedding planes. It then applies the netslip vector to simulate the displacement.
+2. Processing: The script processes these data to construct the 3D geometry of the fault and bedding planes. It then applies the netslip vector to simulate the displacement.
+<img src="figures/figura-script.png"  width="600"/>
 3. Visualization: The script generates visualizations, including:
     - Map View: Shows the horizontal intersection of the fault and bedding planes.
     - Cross-Section View: Displays the vertical intersection in the dip direction of the fault.
