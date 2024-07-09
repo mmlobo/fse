@@ -3,8 +3,8 @@ main.py
 
 Main script to execute the fault slip and separation explorer tool.
 
-This script integrates various functions and modules to analyze and visualize relationships between fault slip,
-bedding orientations, and net slip parameters.
+This script integrates various functions and modules to analyze and visualize relationships between fault slip
+and separation.
 
 Project: Fault Slip and Separation Explorer Tool
 Author: Marta Magán Lobo
