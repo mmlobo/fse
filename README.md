@@ -92,7 +92,6 @@ python -m main
 ```
 
 ## Citation
-If you use this tool in your research, please cite the following paper:
 
 `Magan, M., Poblet, J., & Bulnes, M. (2022). Tools to analyse misleading kinematic interpretations of faults offsetting inclined or folded surfaces: Applications to Asturian Basin (NW Iberian Peninsula) examples. Journal of Structural Geology, 162, 104687.`
 
