@@ -2,7 +2,7 @@
 
 This project implements a Python script designed to explore the relationships between slip and separation in faults that displace pre-existing inclined layers. The tool generates a cross section and a map, and plots the fault plane as in Ragan (2009). Additionally, it plots field-collected data, as presented in:
 
-*Magan, M., Poblet, J., & Bulnes, M. (2022). Tools to analyse misleading kinematic interpretations of faults offsetting inclined or folded surfaces: Applications to Asturian Basin (NW Iberian Peninsula) examples. Journal of Structural Geology, 162, 104687.*
+[*Magan, M., Poblet, J., & Bulnes, M. (2022). Tools to analyse misleading kinematic interpretations of faults offsetting inclined or folded surfaces: Applications to Asturian Basin (NW Iberian Peninsula) examples. Journal of Structural Geology, 162, 104687.*](https://www.sciencedirect.com/science/article/pii/S0191814122001791)
 
 ## Features
 - Plots the data on the graphs proposed in the paper.
