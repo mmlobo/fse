@@ -1,22 +1,20 @@
 # Fault Slip and Separation Explorer (fse)
 
-This project implements a Python script designed to explore the relationships between slip and separation in faults that displace pre-existing inclined layers. The tool generates a cross-section and a map, and plots the fault plane as in Ragan (2009). Additionally, it plots field-collected data, as presented in:
+This project implements a Python script designed to explore the relationships between slip and separation in faults that displace pre-existing inclined layers. The tool generates a cross section and a map, and plots the fault plane as in Ragan (2009). Additionally, it plots field-collected data, as presented in:
 
-*Tools to analyse misleading kinematic interpretations of faults offsetting inclined or folded surfaces: Applications to Asturian Basin (NW Iberian Peninsula) examples*
+*Magan, M., Poblet, J., & Bulnes, M. (2022). Tools to analyse misleading kinematic interpretations of faults offsetting inclined or folded surfaces: Applications to Asturian Basin (NW Iberian Peninsula) examples. Journal of Structural Geology, 162, 104687.*
 
 ## Features
-- Plots the data in the graphs proposed in the paper.
+- Plots the data on the graphs proposed in the paper.
 - Plots the fault plane as in Ragan (2009).
-- Plots a cross-section and a map.
-
-
+- Plots a cross section and a map.
 
 ## Functionality and Results
 
 ### Functionality
 
 1. **Data Input**: The script takes input data from field measurements. This includes orientation of fault and bedding planes and pitch of the net-slip.
-2. **Processing**: The script processes these data to construct the 3D geometry of the fault and bedding planes. It then applies the netslip vector to simulate the displacement.
+2. **Processing**: The script processes these data to construct the 3D geometry of the fault and bedding planes. It then applies the net-slip vector to simulate the displacement.
 <img src="figures/figura-script.png"  width="600"/>
 
 3. **Visualization**: The script generates visualizations, including:
@@ -65,18 +63,18 @@ Figure 2: Dip separation plot.
 Figure 3: Strike separation plot.
 <img src="figures/strike_separation.png"  width="600"/>
 
-Figura 4: Section and Map.
+Figure 4: Section and Map.
 <img src="figures/map-section.png"  width="600"/>
 
 ## Possible Issues
 
-- **Division by Zero**: Ensure that your input data does not cause any division by zero errors. This can occur if certain angles or values are not handled correctly. 
+- **Division by Zero**: Ensure that your input data do not cause any division by zero. This can occur if certain angles or values are not handled correctly. 
 
-- **Visualization issues**: If the combination of your input data and the net-slip value causes the generated diagrams (map and cross-section) to be out of the coordinate system bounds, you may need to adjust your inputs. 
+- **Visualization issues**: If the combination of your input data and the net-slip value causes the generated diagrams (map and cross section) to be out of the coordinate system bounds, you may need to adjust your inputs. 
 
 ## Installation
 
-Install required libraries
+Installation required libraries
 
 ```
 pip install pandas mplstereonet
