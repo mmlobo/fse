@@ -47,12 +47,12 @@ The resulting visualizations provide insights into the relationship between slip
 
 Examples of output visualizations with following data input:
 
-Fault dip: 50
-Fault dip direction: 156
-Bedding dip: 10
-Bedding dip direction: 28
-Pitch net slip: 40
-Units net slip: 10
+   - **Fault dip**: 50
+   - **Fault dip direction**: 156
+   - **Bedding dip**: 10
+   - **Bedding dip direction**: 28
+   - **Pitch net slip**: 40
+   - **Units net slip**: 10
 
 Figure 1: View of a fault plane as in Ragan (2009).
 <img src="figures/fault-plane.png"  width="600"/>
